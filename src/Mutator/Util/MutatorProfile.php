@@ -347,6 +347,7 @@ final class MutatorProfile
         'CloneRemoval' => Mutator\Removal\CloneRemoval::class,
         'FunctionCallRemoval' => Mutator\Removal\FunctionCallRemoval::class,
         'MethodCallRemoval' => Mutator\Removal\MethodCallRemoval::class,
+        'MethodCallRemovalChain' => Mutator\Removal\MethodCallRemovalChain::class,
 
         //Return Value
         'ArrayOneItem' => Mutator\ReturnValue\ArrayOneItem::class,
